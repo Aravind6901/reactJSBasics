@@ -3,15 +3,9 @@ import React from "react";
 export class Header extends React.Component {
     render() {
         return (
-            <nav className="navbar navbar-default">
-                <div className="container">
-                    <div className="navbar-header">
-                        <ul className="nav navbar-nav">
-                            <li><a href="#">HOME</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <div className="w3-bar w3-pink">
+                <a href="#" className="w3-bar-item w3-button">Home</a>
+            </div>
         );
     }
 }
